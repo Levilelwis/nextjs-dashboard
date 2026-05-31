@@ -1,14 +1,14 @@
-import { latestInvoices } from '@/app/lib/data';
+import { latestInvoices } from "@/app/lib/data";
 
 export default function LatestInvoices() {
   return (
     <div>
       <h2>🧾 Latest Invoices</h2>
 
-      <table>
+      <table border={1} cellPadding={10}>
         <thead>
           <tr>
-            <th>Customer</th>
+            <th>Name</th>
             <th>Email</th>
             <th>Amount</th>
             <th>Status</th>
